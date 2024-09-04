@@ -1,0 +1,266 @@
+{
+  "quizzes": [
+    {
+      "title": "Java Programming Model Paper 1",
+      "icon": "./assets/images/icon-java.svg",
+      "questions": [
+        {
+          "question": "What is the default value of a local variable in Java?",
+          "options": ["0", "null", "Depends on the data type", "Local variables do not have a default value"],
+          "answer": "Local variables do not have a default value"
+        },
+        {
+          "question": "Which keyword is used to declare a class in Java?",
+          "options": ["class", "Class", "def", "structure"],
+          "answer": "class"
+        },
+        {
+          "question": "Which method is used to start the execution of a Java program?",
+          "options": ["main()", "start()", "run()", "execute()"],
+          "answer": "main()"
+        },
+        {
+          "question": "Which of the following is a valid Java identifier?",
+          "options": ["1variable", "variable_1", "variable-1", "variable@1"],
+          "answer": "variable_1"
+        },
+        {
+          "question": "What is the size of an int data type in Java?",
+          "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+          "answer": "32 bits"
+        },
+        {
+          "question": "Which of the following is a reserved keyword in Java?",
+          "options": ["goto", "integer", "define", "include"],
+          "answer": "goto"
+        },
+        {
+          "question": "Which of these operators is used to allocate memory for an object?",
+          "options": ["malloc", "alloc", "new", "create"],
+          "answer": "new"
+        },
+        {
+          "question": "Which of the following is not a primitive data type in Java?",
+          "options": ["int", "float", "String", "char"],
+          "answer": "String"
+        },
+        {
+          "question": "Which of the following options is a valid declaration of a boolean?",
+          "options": ["boolean b = 0;", "boolean b = true;", "boolean b = \"false\";", "boolean b = no;"],
+          "answer": "boolean b = true;"
+        },
+        {
+          "question": "Which keyword is used to inherit a class in Java?",
+          "options": ["implements", "extends", "inherits", "derives"],
+          "answer": "extends"
+        },
+        {
+          "question": "What is the output of the following code? `System.out.println(2 + 3 * 5);`",
+          "options": ["25", "17", "10", "15"],
+          "answer": "17"
+        },
+        {
+          "question": "Which loop in Java is guaranteed to execute at least once?",
+          "options": ["for", "while", "do-while", "foreach"],
+          "answer": "do-while"
+        },
+        {
+          "question": "Which of the following statements is true about methods in Java?",
+          "options": ["Methods must return a value.", "Methods can be overloaded.", "Methods cannot be recursive.", "Methods must be public."],
+          "answer": "Methods can be overloaded."
+        },
+        {
+          "question": "Which method is used to compare two strings in Java?",
+          "options": ["==", "equals()", "compare()", "matches()"],
+          "answer": "equals()"
+        },
+        {
+          "question": "Which data type is used to create a variable that should store text?",
+          "options": ["char", "String", "text", "word"],
+          "answer": "String"
+        },
+        {
+          "question": "Which of the following is used to find the length of a string in Java?",
+          "options": ["size()", "length()", "getLength()", "count()"],
+          "answer": "length()"
+        },
+        {
+          "question": "Which of the following access specifiers can be used for a class in Java?",
+          "options": ["private", "protected", "default", "public"],
+          "answer": "public"
+        },
+        {
+          "question": "Which of the following is a valid array declaration in Java?",
+          "options": ["int arr[] = new int[5];", "int arr = new int[5];", "int arr[5];", "int arr[] = new int();"],
+          "answer": "int arr[] = new int[5];"
+        },
+        {
+          "question": "In Java, which exception is thrown when an array is accessed with an illegal index?",
+          "options": ["ArrayIndexOutOfBoundsException", "NullPointerException", "IndexException", "IllegalArrayIndexException"],
+          "answer": "ArrayIndexOutOfBoundsException"
+        },
+        {
+          "question": "What is the default value of a boolean variable in Java?",
+          "options": ["true", "false", "0", "1"],
+          "answer": "false"
+        },
+        {
+          "question": "Which of the following is not a feature of the Java programming language?",
+          "options": ["Platform-independent", "Object-oriented", "Supports multiple inheritance", "Multithreaded"],
+          "answer": "Supports multiple inheritance"
+        },
+        {
+          "question": "Which of the following is the correct way to import an entire package?",
+          "options": ["import package_name;", "import package_name.*;", "using package_name.*;", "include package_name.*;"],
+          "answer": "import package_name.*;"
+        },
+        {
+          "question": "Which of the following statements will create a new object of the String class?",
+          "options": ["String str = new String();", "String str = new String[5];", "String str = 'Hello';", "String str = 'Hello'();"],
+          "answer": "String str = new String();"
+        },
+        {
+          "question": "Which of the following keywords is used to prevent inheritance in Java?",
+          "options": ["static", "final", "abstract", "extends"],
+          "answer": "final"
+        },
+        {
+          "question": "Which of the following is not a valid Java modifier?",
+          "options": ["public", "private", "friend", "protected"],
+          "answer": "friend"
+        }
+      ]
+    },
+    {
+      "title": "Java Programming Model Paper 2",
+      "icon": "./assets/images/icon-java.svg",
+      "questions": [
+        {
+          "question": "Which of the following is the superclass of every class in Java?",
+          "options": ["Object", "Class", "Parent", "Superclass"],
+          "answer": "Object"
+        },
+        {
+          "question": "Which operator is used to test for equality in Java?",
+          "options": ["=", "==", "equals()", "==="],
+          "answer": "=="
+        },
+        {
+          "question": "Which of the following is not a type of constructor?",
+          "options": ["Default constructor", "Parameterized constructor", "Private constructor", "Copy constructor"],
+          "answer": "Copy constructor"
+        },
+        {
+          "question": "Which of the following methods is used to terminate a thread in Java?",
+          "options": ["exit()", "stop()", "terminate()", "end()"],
+          "answer": "stop()"
+        },
+        {
+          "question": "What will be the output of `System.out.print(\"Hello \" + 1 + 2 + 3);`?",
+          "options": ["Hello 123", "Hello 6", "Hello 1 2 3", "123Hello"],
+          "answer": "Hello 123"
+        },
+        {
+          "question": "What is the result of `10 % 3` in Java?",
+          "options": ["1", "2", "3", "0"],
+          "answer": "1"
+        },
+        {
+          "question": "Which method is used to convert a string to uppercase in Java?",
+          "options": ["toUpper()", "upper()", "convertUpper()", "toUpperCase()"],
+          "answer": "toUpperCase()"
+        },
+        {
+          "question": "Which statement is true about the garbage collection mechanism in Java?",
+          "options": ["It is guaranteed to run periodically.", "It destroys unused objects.", "It is triggered manually by the programmer.", "It works only on arrays."],
+          "answer": "It destroys unused objects."
+        },
+        {
+          "question": "Which method must be defined by a Java class implementing the Runnable interface?",
+          "options": ["run()", "execute()", "start()", "init()"],
+          "answer": "run()"
+        },
+        {
+          "question": "Which of these keywords is used to create an exception handler?",
+          "options": ["catch", "try", "throw", "throws"],
+          "answer": "catch"
+        },
+        {
+          "question": "Which method is used to remove all elements from an ArrayList in Java?",
+          "options": ["removeAll()", "clear()", "delete()", "remove()"],
+          "answer": "clear()"
+        },
+        {
+          "question": "Which of these statements about interfaces in Java is true?",
+          "options": ["Interfaces can be instantiated.", "Interfaces can contain constructors.", "Interfaces can extend multiple interfaces.", "Interfaces can contain instance variables."],
+          "answer": "Interfaces can extend multiple interfaces."
+        },
+        {
+          "question": "Which of the following is used to find the highest value of two numbers in Java?",
+          "options": ["Math.maximum()", "Math.max()", "Math.highest()", "Math.maxValue()"],
+          "answer": "Math.max()"
+        },
+        {
+          "question": "Which of the following is a valid syntax to declare a package in Java?",
+          "options": ["package mypack;", "declare package mypack;", "include package mypack;", "package: mypack;"],
+          "answer": "package mypack;"
+        },
+        {
+          "question": "Which of these exceptions is thrown by the JVM when it encounters a divide by zero?",
+          "options": ["NullPointerException", "ArithmeticException", "DivideByZeroException", "IllegalArgumentException"],
+          "answer": "ArithmeticException"
+        },
+        {
+          "question": "Which of the following is true about a constructor?",
+          "options": ["A constructor cannot have a return type.", "A constructor must be public.", "A constructor must have a return type.", "A constructor cannot have parameters."],
+          "answer": "A constructor cannot have a return type."
+        },
+        {
+          "question": "Which keyword is used to refer to the current instance of a class?",
+          "options": ["that", "self", "this", "class"],
+          "answer": "this"
+        },
+        {
+          "question": "Which keyword is used to define a constant variable in Java?",
+          "options": ["static", "constant", "final", "define"],
+          "answer": "final"
+        },
+        {
+          "question": "Which of these classes is the immediate superclass of the `FileReader` class?",
+          "options": ["InputStream", "OutputStream", "FileInputStream", "Reader"],
+          "answer": "Reader"
+        },
+        {
+          "question": "Which of these methods can be used to read a line of text from a BufferedReader object?",
+          "options": ["readLine()", "readText()", "nextLine()", "read()"],
+          "answer": "readLine()"
+        },
+        {
+          "question": "Which of the following is not a valid constructor in Java?",
+          "options": ["MyClass()", "void MyClass()", "MyClass(int a)", "MyClass(String s)"],
+          "answer": "void MyClass()"
+        },
+        {
+          "question": "Which of these is a feature of polymorphism in Java?",
+          "options": ["Method Overloading", "Method Overriding", "Both A and B", "None of the above"],
+          "answer": "Both A and B"
+        },
+        {
+          "question": "Which of these is used to generate random numbers in Java?",
+          "options": ["java.util.Random", "java.lang.Math", "java.io.Random", "java.util.Math"],
+          "answer": "java.util.Random"
+        },
+        {
+          "question": "Which of the following is true about Java arrays?",
+          "options": ["Arrays can hold objects of different types.", "Arrays have a fixed size once they are created.", "Arrays are automatically resizable.", "Arrays are linked lists."],
+          "answer": "Arrays have a fixed size once they are created."
+        },
+        {
+          "question": "Which of these is not a type of inheritance in Java?",
+          "options": ["Single", "Multiple", "Multilevel", "Hierarchical"],
+          "answer": "Multiple"
+        }
+      ]
+    }
+  ]
+}
